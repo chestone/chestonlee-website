@@ -1,1 +1,2 @@
-coneols.log(``);
+const world = "WORLD";
+console.log(`Hello ${world}`);
