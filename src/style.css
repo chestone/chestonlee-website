@@ -89,20 +89,32 @@ body {
 
 a {
   text-decoration: none;
-  color: initial;
+  color: inherit;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-ul {
-  display: inline-flex;
+/* End Brand Styles */
+
+.links-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
 }
 
 li {
-  display: flex;
   list-style: none;
 }
 
-/* End Brand Styles */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .links-container {
+    flex-direction: column;
+  }
+}
+
+/* font-styles */
