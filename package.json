@@ -9,5 +9,6 @@
     "dev": "parcel src/index.html"
   },
   "author": "Cheston Lee (chestonlloyd@gmail.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
