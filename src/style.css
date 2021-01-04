@@ -39,6 +39,21 @@ body {
   line-height: 1.5;
 }
 
+main {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 5%;
+  margin: 0 auto;
+}
+
+main section {
+  width: 100%;
+}
+
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
@@ -111,7 +126,7 @@ li {
 }
 
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 310px) and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .links-container {
     flex-direction: column;
   }
