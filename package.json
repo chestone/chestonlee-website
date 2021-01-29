@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build src/index.html",
+    "prod": "rm -rf ./dist/ && parcel build src/index.html",
     "dev": "parcel src/index.html",
+    "watch": "parcel watch src/index.html",
     "clean": "rm -rf ./dist/"
   },
   "author": "Cheston Lee (chestonlloyd@gmail.com)",
